@@ -1,18 +1,24 @@
-.header{
-    color: rgb(114, 112, 19);
-    background-image: url("https://i2.wp.com/backgroundcheckall.com/wp-content/uploads/2017/12/background-hd-images-for-photoshop-editing-10.jpg");
-    background-repeat: no-repeat;
-
-}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
 .center {
     display: block;
-    
     margin-left: auto;
     margin-right: auto;
+    font-variant: small-caps;
     
 }
 .container {
-    background-color: #cccccc;   
+    background-color: #cccccc;  
+    font-variant: small-caps; 
+}
+
+h4, p{
+    font-size: 150%;
 }
 
 
@@ -20,9 +26,13 @@ nav{
     display: block;
     width: auto;
     height: auto;
-    background-color:#8f8f8f;
+    background-color: rgba(46, 45, 40, 0.884);
     overflow: hidden;
     font-variant: small-caps;
+    
+}
+nav:hover {
+    background-color: #8f8f8f; 
 }
 img {
     border: 1px solid #ddd;
@@ -30,8 +40,7 @@ img {
     padding: 5px;
     width: auto;
     align-items: center;
-    /* color: #cdc8b1 */
-    /* color : #8f8f8f; */
+
 }
   
 img:hover {
@@ -41,8 +50,17 @@ img:hover {
 ul,li,a{
     text-decoration: wavy;
     display: inline-block;
-    font-family: 'Autour One';
     color: #ffff;
-    padding:0px 30px ;
-    
+    padding:0px 30px ;   
 }
+
+.footer {
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#8f8f8f;
+    color: white;
+    text-align: center;
+ }
+
