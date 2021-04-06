@@ -1,15 +1,19 @@
+<html>
 <head>
     <title>Page2</title>
     <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Autour One' rel='stylesheet'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Autour One' rel='stylesheet'> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
+        body{
+            background-image: linear-gradient(to right, rgba(202, 193, 193, 0), rgb(58, 40, 40));
+        }
         h1 {
             font-variant: small-caps;
             text-shadow: 2cm;
             text-align: center;
             color: e#000000;
-            text-shadow: 1px 1px 2px black, 0 0 25px whitesmoke, 0 0 5px white;
+            text-shadow: 1px 1px 2px black, 0 0 25px whitesmoke;
 
         }
         body{
@@ -32,29 +36,29 @@
             padding: 8px;
             border: 3px solid #dee2e6;
             size: 10;
+            font-size: 20px;
             
         }
         tr:nth-child(even) {
             background-color: #ebe5e5;
+            font-size: 20px;
         }
         th {
             align-items: center;
             height: 40px;
             text-align: left;
+            font-size: 20px;
         }
         .back{
             padding: 14px 28px;
-            font-size: 16px;
+            font-size: 18px;
             border: none;
             /* color: black; */
             /* padding: 12px 16px; */
-            font-size: 16px;
+            font-size: 18px;
             cursor: pointer;
         }
-        i {
-            color: black;
-
-        }
+        
         p {
             font-variant: small-caps;
             font-size: medium;
@@ -62,7 +66,7 @@
 
         }
         .checked {
-            color: rgb(22, 21, 21)
+            color: rgb(209, 200, 68)
         }
         /* .skills{
             align-items: center;
@@ -72,6 +76,13 @@
 
 </head>
 <body>
+    <nav class="icon">
+        <ul>
+         <li><a href="qualification.html"> Qualification </a></li>
+         <li><a href="project.html">  Projects </a></li>
+         <li><a href="contact.html">  Contact Me</a></li>
+        </ul>
+    </nav>
     <h1>Academic Details :</h1>
     <table align="center" style="width:900px" height="300px">
         <tr>
@@ -103,11 +114,13 @@
         </tr>
     </table>
 
+    <div class="skill">
 
+    
     <h1>My Skills</h1>
     <ul>
         <li>
-            <p style="color: #000000; border-style: groove;">Python</p>
+            <p style="color: #000000; border-style: groove;font-size: medium;font-size: 25px;">Python</p>
             <span class="fa fa-star checked"></span>
              <span class="fa fa-star checked"></span>
              <span class="fa fa-star checked"></span>
@@ -116,7 +129,7 @@
 
         </li>
         <li>
-            <p style="color: #000000; border-style: groove;">Java</p>
+            <p style="color: #000000; border-style: groove;font-size: 25px;">Java</p>
             <span class="fa fa-star checked"></span>
              <span class="fa fa-star checked"></span>
              <span class="fa fa-star checked"></span>
@@ -125,7 +138,7 @@
 
         </li>
         <li>
-            <p style="color: #000000;border-style: groove;">Machine Learning</p>
+            <p style="color: #000000;border-style: groove;font-size: 25px;">Machine Learning</p>
              <span class="fa fa-star checked"></span>
              <span class="fa fa-star checked"></span>
              <span class="fa fa-star checked"></span>
@@ -133,7 +146,7 @@
              <span class="fa fa-star not"></span>
 
         </li>
-        <li> <p style="color: #000000;border-style: groove;">HTML</p> 
+        <li> <p style="color: #000000;border-style: groove;font-size: medium;font-size: 25px;">HTML</p> 
             <span class="fa fa-star checked"></span>
              <span class="fa fa-star checked"></span>
              <span class="fa fa-star checked"></span>
@@ -141,7 +154,7 @@
              <span class="fa fa-star not"></span>
         </li>  
         
-        <li> <p style="color: #000000;border-style: groove;">Css</p> 
+        <li> <p style="color: #000000;border-style: groove;font-size: 25px;">Css</p> 
             <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
@@ -149,14 +162,14 @@
               <span class="fa fa-star not"></span>
         </li>
         
-        <li> <p style="color: #000000;border-style: groove;">Algorithms and Data Structure</p>
+        <li> <p style="color: #000000;border-style: groove;font-size: 25px;">Data Structure</p>
             <span class="fa fa-star checked"></span>
              <span class="fa fa-star checked"></span>
              <span class="fa fa-star checked"></span>
              <span class="fa fa-star not"></span>
              <span class="fa fa-star not"></span>
         </li>  
-        <li> <p style="color: #000000;border-style: groove;">C Language</p> 
+        <li> <p style="color: #000000;border-style: groove;font-size: 25px;">C Language</p> 
             <span class="fa fa-star checked"></span>
              <span class="fa fa-star checked"></span>
              <span class="fa fa-star "></span>
@@ -165,74 +178,7 @@
         </li>   
         
     </ul>
-    <!-- <div class ="skills">
-    <table>
-        <th>
-        </th>
-        <tr style="text-align: center; font-variant: small-caps;
-        font-size: medium; color: black;">
-        <td >
-            <li> <p style="color: #000000;">Python</p></li> 
-            <li>
-            <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star not"></span>
-             <span class="fa fa-star not"></span></p></li>   
-         </td>
-        </tr>
-        <tr style="text-align: center;">
-         <td>
-            <li> <p style="color: #000000;">Java</p></li> 
-            <li> <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star not"></span>
-             <span class="fa fa-star not"></span></li>   
-         </td>
-        </tr>
-        <tr style="text-align: center; ">
-         <td>
-            <li> <p style="color: #000000;">Machine Learning</p></li> 
-            <li> <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star not"></span>
-             <span class="fa fa-star not"></span></li>   
-         </td>
-        </tr>
-        <tr style="text-align: center;">
-         <td>
-            <li> <p style="color: #000000;">HTML</p></li> 
-            <li> <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star not"></span>
-             <span class="fa fa-star not"></span></li>   
-         </td>
-        </tr>
-        <tr style="text-align: center;">
-         <td>
-            <li> <p style="color: #000000;">Css</p></li> 
-            <li> <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star not"></span>
-             <span class="fa fa-star not"></span></li>   
-         </td>
-        </tr>
-        <tr style="text-align: center;">
-         <td>
-            <li> <p style="color: #000000;">Algorithms and Data Structure</p></li> 
-            <li > <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star not"></span>
-             <span class="fa fa-star not"></span></li>   
-         </td>
-        </tr>
-    </table>
-    </div> -->
+    </div>
 
     <div class="footer">
         <div class = "back" >
@@ -243,4 +189,5 @@
 
     
 </body>
+</html>
 
