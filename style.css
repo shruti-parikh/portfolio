@@ -1,20 +1,31 @@
+body{
+    /* font-variant: small-caps;  */
+    /* font-family: 'Tangerine', serif; */
+    padding-left: 20px;
+    font-family: 'Satisfy', cursive;
+    
+}
+
+
 .dot {
     height: 25px;
     width: 25px;
-    background-image: linear-gradient(to right, rgba(202, 193, 193, 0), rgb(58, 40, 40));
-    border-radius: 50%;
+    /* background-image: linear-gradient(to right, rgba(202, 193, 193, 0), rgb(58, 40, 40)); */
+    background-image: linear-gradient(to right, #9e9d89, #b67162);
+    border-radius: 40%;
     display: inline-block;
   }
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-variant: small-caps;
+    
     
 }
 .container {
-    background-image: linear-gradient(to right, rgba(202, 193, 193, 0), rgb(58, 40, 40));  
-    font-variant: small-caps; 
+    /* background-image: linear-gradient(to right, rgba(202, 193, 193, 0), rgb(58, 40, 40));   */
+    background-image: linear-gradient(to right, #9e9d89, #b67162);   
+    
 }
 
 h4, p{
@@ -25,13 +36,14 @@ i {
 
 }
 
-nav{
-    display: block;
+.icon{
+    /* display: block; */
     width: auto;
     height: auto;
     background-color: rgba(46, 45, 40, 0.884);
     overflow: hidden;
-    font-variant: small-caps;
+    font-size: 20px;
+    
     
 }
 nav:hover {
@@ -50,7 +62,13 @@ img:hover {
     box-shadow: 0 0 2px 1px#383535;
   }
 
-ul,li,a{
+.icon ul,li,a{
+    text-decoration: wavy;
+    display: inline-block;
+    color: #ffff;
+    padding:0px 30px ;   
+}
+.cls{
     text-decoration: wavy;
     display: inline-block;
     color: #ffff;
