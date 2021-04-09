@@ -5,104 +5,79 @@
         <!-- <link href='https://fonts.googleapis.com/css?family=Autour One' rel='stylesheet'> -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Satisfy&display=swap" rel="stylesheet">
-    
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Satisfy&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-            body {
-                /* background-image: linear-gradient(to right, #9e9d89, #b67162);  */
-                background-image: url("https://images.pexels.com/photos/3255761/pexels-photo-3255761.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-
-                /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFfHqJtZenF6M8Cyyy1GDOyDEpUlqWKmnGbA&usqp=CAU");
-                background-repeat: no-repeat;
-                background-size: 100%; */
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        
+         <style>
+            body{
+                background-image : url("https://images.pexels.com/photos/3255761/pexels-photo-3255761.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+                font-family: 'Satisfy', cursive;
             }
-            .project  {
-                    background-color: rgb(216, 177, 177);
-                    width: 80%;
-                    border: 15px solid  #627a81; 
-                    padding: 50px;
-                    text-align: center;
-                    /* padding-left: 20px; */
-                    margin: 10px;
-                }
-            .total {
-                padding-left: 10%;
-                margin: 10px;
-                border: #9e9d89;
-
-            }
-            /* h2.project::first-letter {
-                color: #ca8b8b;
-                font-size: 200%;
-            } */
-            ::selection {
-                color: rgb(105, 49, 49);
-                background: rgb(172, 172, 135);
-            }
-            footer{
-            padding-top: 20px;
-            text-align: center;
-           
-        }
-        .btn {
-            height: 50px;
-
-        }
-           
+            
         </style>
     </head>
 
     <body>
-        <nav class="icon">
-            <ul>
-             <li><a href="qualification.html"> Qualification </a></li>
-             <li><a href="project.html">  Projects </a></li>
-             <li><a href="contact.html">  Contact Me</a></li>
-            </ul>
-        </nav>
-        <h1 style="text-align: center;">Projects</h1>
-        <div class="total">
+        <div id="navigation"> 
+            <nav style="padding-top: 0.5%;">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                    <a class="nav-link " href="qualification.html" style="color: antiquewhite;font-size: 25px;">Qualifications</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="project.html" style="color: antiquewhite;font-size: 25px;">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contact.html" style="color: antiquewhite; font-size: 25px;">Contact Me</a>
+                    </li>
+                </ul>
+            </nav> 
+        </div>
+        <br>
+        <h1 style="text-align: center;" style="font-family: 'Satisfy', cursive;">Projects</h1>
+        <div class="container">
+            <div class="card text-center" style="border-radius: 40px; ">
+                <div class="card-header"style=" border-radius: 30px">
+                    <h2 class="text-center">RACE IN MAZE</h2>
+                </div>
+                <div class="card-body">
+                    <p class="text-center" >Mini Project - 2 weeks</p>
+                    <p class="text-center">Languages use : python, tkinter</p>
+                    <p class="text-center">The basic overview of the game is that we have to go through a maze, bound at certain places, beyond which the DOT would not move. The DOT would move according to keyboard inputs. We can choose the difficulty level. According to the chosen difficulty level, we set different timers.
+                            The aim of the game is to move through the maze and collect score colour DOTS that would appear at random points as we go on to collect it. As we collect the score DOTS more, the score count will continue to increase. And we continue to do so, until the timer is finished.
+                    </p>
+                </div>
+              </div>
+            </div>
+
+              <br><br><br>
+            <div class="container">
+                <div class="card" style="padding: 10px; border-radius: 40px ; ">
+                    <div class="card-header"style=" border-radius: 30px">
+                        <h2 class="text-center">CGL</h2>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-center">Mini Project - 2 weeks</p>
+                        <p class="text-center">Languages use : Java, JavaFX</p>
+                        <p class="text-center">The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, live or dead, (or populated and unpopulated, respectively). Every cell interacts with its eight neighbours, which are the cells that are horizontally, 
+                        vertically, or diagonally adjacent. At each step in time, the following transitions occur:</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+           
+   
+        <!-- <div class="text-center">
+            <a href="home.html" class="btn btn-outline-primary btn-lg " style="text-align: center;"><i class="fa fa-home"> Home</i></a>
+        </div>
+        <br> -->
+        <div class="text-center">
+                <a href="home.html" class="btn btn-light btn-lg " style="text-align: center;"><i class="fa fa-home"> Home</i></a>
+            <p>&copy; made by Shruti parikh</p>
+        </div>
 
         
-        <div class="project" style="background-color: rgb(245, 245, 245);">
-            
-            <h2>RACE IN MAZE </h2>
-            <p>Mini Project - 2 weeks</p>
-            <p>Languages use : python, tkinter</p>
-            <p>The basic overview of the game is that we have to go through a maze, bound at certain places, beyond which the DOT would not move. The DOT would move according to keyboard inputs. We can choose the difficulty level. According to the chosen difficulty level, we set different timers.
-                    The aim of the game is to move through the maze and collect score colour DOTS that would appear at random points as we go on to collect it. As we collect the score DOTS more, the score count will continue to increase. And we continue to do so, until the timer is finished.
-            </p>
-
-        </div>
-
-        <div class="project" style="background-color: rgb(245, 245, 245); ">
-            <!-- <h1 style="text-align: center;">Projects</h1> -->
-            <h2>CGL </h2>
-            <p>Mini Project - 2 weeks</p>
-            <p>Languages use : Java, JavaFX</p>
-            <p>The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, live or dead, (or populated and unpopulated, respectively). Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:</p>
-
-        </div>
-    </div>
-
-        <!-- <div class="footer">
-            <div class = "back" >
-                <button class="btn" ><a href="home.html"><i class="fa fa-home"> Home</i></a></button>
-            </div>
-            <p>&copy; made by Shruti parikh</p>
-            
-        </div> -->
-        <footer>
-            <button class="btn" ><a href="home.html"><i class="fa fa-home"> Home</i></a></button>
-        </footer>
-
-        <!-- <div class="footer">
-            <footer >
-                <button class="btn" ><a href="home.html"><i class="fa fa-home"> Home</i></a></button>
-            </footer>
-            <p>&copy; made by Shruti parikh</p>
-        </div> -->
     
 
     </body>
