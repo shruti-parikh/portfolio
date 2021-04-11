@@ -1,7 +1,7 @@
 body{
     /* font-variant: small-caps;  */
     /* font-family: 'Tangerine', serif; */
-    padding-left: 20px;
+    
     font-family: 'Satisfy', cursive;
     
     
@@ -73,14 +73,14 @@ img {
     text-decoration: wavy;
     display: inline-block;
     color: #ffff;
-    padding:0px 30px ;   
+    /* padding:0px 30px ;    */
 }
-.cls{
+/* .cls{
     text-decoration: wavy;
     display: inline-block;
     color: #ffff;
     padding:0px 30px ;   
-}
+} */
 
 .footer {
     position: fixed; 
@@ -94,8 +94,7 @@ img {
  #navigation{
     background-color:#547785;
     
-    padding-left: 13px;
-    margin-top: 10px;
+    
 }
 
 .card {
